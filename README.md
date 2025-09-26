@@ -21,6 +21,13 @@ print("SORTED WORD:", alphabet_soup(word))
 - `input()` → lets the user type in a word for the program to process.
 - `print("SORTED WORD:", alphabet_soup(word))` → displays the sorted version of the word.
 
+  Outcome:
+```python
+If the user enters 'advance', the program will output:
+
+SORTED WORD: aacdenv
+```
+
 ------
 ### 2) Emoticon Problem - Creates a function that converts certain words into their corresponding emoticons.
 
@@ -51,6 +58,15 @@ print("CONVERTED EMOJI:", emotify(sentence))
 - `for word, symbol in emoticons.items()` → loops through each word–emoji pair in the dictionary.
 - `phrases.replace(word, symbol)` → replaces every occurrence of the word in the sentence with its emoji.
 - `input()` → takes a sentence from the user for conversion.
+
+  Outcome:
+```python
+If the user enters:
+I am smile but sometimes sad
+
+The program outputs:
+CONVERTED EMOJI: I am :) but sometimes :((
+```
 ------
 ### 3) Unpacking List Problem - Creates a function that splits a user’s input list into three parts: the first item, the middle items, and the last item.
 
